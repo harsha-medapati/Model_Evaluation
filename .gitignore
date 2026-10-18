@@ -1,0 +1,34 @@
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+*.log
+
+# Frontend dependencies and builds
+node_modules/
+dist/
+build/
+
+# Local editor and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local database and generated project data
+backend/data/artifacts/
+backend/data/uploads/
+backend/data/reports/
+backend/data/studio.db
+
+# Keep built-in sample datasets
+!backend/data/samples/
+!backend/data/samples/*.csv
